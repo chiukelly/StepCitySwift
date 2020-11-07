@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		33D261F1255717A600A08091 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D261F0255717A600A08091 /* Preview Assets.xcassets */; };
 		33D261F4255717A600A08091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D261F2255717A600A08091 /* LaunchScreen.storyboard */; };
 		D258ECCF25571E3700AEECC3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D258ECCE25571E3700AEECC3 /* GoogleService-Info.plist */; };
+		D28DEF6D255725C500B4A524 /* Leaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28DEF6C255725C500B4A524 /* Leaderboard.swift */; };
 		E4701B0E67B4B2DC88C03D99 /* Pods_StepCitySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76B0BE4905A6796BB630AEA /* Pods_StepCitySwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		33D261F3255717A600A08091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33D261F5255717A600A08091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D258ECCE25571E3700AEECC3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D28DEF6C255725C500B4A524 /* Leaderboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leaderboard.swift; sourceTree = "<group>"; };
 		D76B0BE4905A6796BB630AEA /* Pods_StepCitySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StepCitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E899487FAB46C8528538ACAE /* Pods-StepCitySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StepCitySwift.release.xcconfig"; path = "Target Support Files/Pods-StepCitySwift/Pods-StepCitySwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,6 +49,7 @@
 		33D261DB2557179C00A08091 = {
 			isa = PBXGroup;
 			children = (
+				D28DEF6B255725AC00B4A524 /* FriendList */,
 				33D261E62557179C00A08091 /* StepCitySwift */,
 				33D261E52557179C00A08091 /* Products */,
 				AC75E9BF1E0234F38FADFBD7 /* Pods */,
@@ -91,8 +94,15 @@
 				17AFE0C5F6AFA31C9D001CC0 /* Pods-StepCitySwift.debug.xcconfig */,
 				E899487FAB46C8528538ACAE /* Pods-StepCitySwift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D28DEF6B255725AC00B4A524 /* FriendList */ = {
+			isa = PBXGroup;
+			children = (
+				D28DEF6C255725C500B4A524 /* Leaderboard.swift */,
+			);
+			path = FriendList;
 			sourceTree = "<group>";
 		};
 		D51C657074291F2F1AC3808D /* Frameworks */ = {
@@ -220,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33D261E82557179C00A08091 /* AppDelegate.swift in Sources */,
+				D28DEF6D255725C500B4A524 /* Leaderboard.swift in Sources */,
 				33D261EA2557179C00A08091 /* SceneDelegate.swift in Sources */,
 				33D261EC2557179C00A08091 /* ContentView.swift in Sources */,
 			);
